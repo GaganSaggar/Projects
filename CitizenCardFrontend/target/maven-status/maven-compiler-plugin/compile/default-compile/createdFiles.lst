@@ -1,0 +1,6 @@
+com\niec\citizen\config\CustomSuccessHandler.class
+com\niec\citizen\config\SecurityWebApplicationInitializer.class
+com\niec\citizen\controller\HomeController.class
+com\niec\citizen\controller\UserController.class
+com\niec\citizen\controller\SpringSecurityController.class
+com\niec\citizen\config\SecurityConfiguration.class

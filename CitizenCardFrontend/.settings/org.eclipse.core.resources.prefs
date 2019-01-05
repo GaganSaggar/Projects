@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/jsp/admin.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/bank.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/electricity.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/index.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/login.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/registration.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/user.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/useradd.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/userupdate.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/welcome.jsp=UTF-8
