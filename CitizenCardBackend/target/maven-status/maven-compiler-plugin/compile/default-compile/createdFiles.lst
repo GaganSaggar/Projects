@@ -1,0 +1,7 @@
+com\niec\citizen\DAO\UserDAO.class
+com\niec\citizen\DAOImpl\ElectricityDAOImpl.class
+com\niec\citizen\config\HibernateConfiguration.class
+com\niec\citizen\model\Electricity.class
+com\niec\citizen\DAOImpl\UserDAOImpl.class
+com\niec\citizen\model\User.class
+com\niec\citizen\DAO\ElectricityDAO.class
