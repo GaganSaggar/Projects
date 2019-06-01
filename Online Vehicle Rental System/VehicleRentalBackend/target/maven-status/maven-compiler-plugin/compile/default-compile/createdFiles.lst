@@ -1,0 +1,10 @@
+com\niec\vehicle\DAOImpl\VehicleDAOImpl.class
+com\niec\vehicle\DAO\VehicleDAO.class
+com\niec\vehicle\DAO\OrderedVehicleDAO.class
+com\niec\vehicle\model\Vehicle.class
+com\niec\vehicle\config\HibernateConfiguration.class
+com\niec\vehicle\DAOImpl\UserDAOImpl.class
+com\niec\vehicle\model\OrderedVehicle.class
+com\niec\vehicle\model\User.class
+com\niec\vehicle\DAO\UserDAO.class
+com\niec\vehicle\DAOImpl\OrderedVehicleDAOImpl.class

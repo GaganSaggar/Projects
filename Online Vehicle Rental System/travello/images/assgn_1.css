@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background: #839EAB;
+}
+
+.head{
+	height: 12vh;
+	width: 100%;
+	background: #2E99CD;
+}
+
+.nav{
+	height: 12vh;
+	width: 70%;
+	background: #411647;
+	float: right;
+}
+
+.nav ul{
+		height: 3vh;
+		text-align: right;
+		margin-top: 4.5vh; 
+
+}
+
+.nav ul li{
+	display: inline;
+
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color:#fff;	
+	margin: 1%;
+}
+
+.corner{
+	height: 88vh;
+	width: 20%;
+	background: #054458;
+	float: left;
+}
+
+.corner ul{
+		text-align: center;
+}
+
+.corner ul li{
+
+		margin-top: 9%;
+}
+.corner ul li a{
+	text-decoration: none;
+	color: #26134A;	
+	margin: 1%;
+} 
+
+.right
+{
+	height: 50vh;
+	width: 50%;
+	float: right;
+}
+
+.right ul li{
+	margin-top: 10%;
+	float: left;
+	list-style: none;
+	height: 30vh;
+	width: 20%;
+	margin-left: 10%;
+	background:#0E1B50;
+	
+}
+
+
+.bottom{
+	height: 20vh;
+	width: 50%;
+	float: right;
+
+	margin-right: 20%;
+	margin-top: 8%;
+}
+
+
+.bottom ul li{
+	float: left;
+	list-style: none;
+	height: 19vh;
+	width: 24.25%;
+	background: #3E6314;
+	border: 2px solid red;
+	border-radius: 4px;
+}

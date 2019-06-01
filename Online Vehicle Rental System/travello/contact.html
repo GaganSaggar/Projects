@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css" media="screen">
+		
+.background_image
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	animation-name: carousel;
+	animation-delay: 0s;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+	@keyframes carousel{
+		
+		0%{
+             background-image: url('images/home_slider1.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		20%{
+             background-image: url('images/home_slider3.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		40%{
+             background-image: url('images/home_slider4.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		60%{
+             background-image: url('images/home_slider5.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		80%{
+             background-image: url('images/home_slider6.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		100%{
+             background-image: url('images/home_slider1.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+
+
+}
+	/* For Discount background image */
+.background_image_2
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+</style>
+<title>Contact us</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/rent.png">
+
+</head>
+<body>
+
+	
+<div class="super_container">
+	
+	<!-- Header -->
+   
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
+							<div class="logo"><a href="index.html">Travello</a></div>
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="about.html">About us</a></li>
+									<li><a href="list.html">Vehicle Listing</a></li>
+									<li><a href="faqs.html">FAQS</a></li>
+									<li class="active"><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</nav>
+							<div class="header_phone ml-auto">
+								<a href="#">Call Us:&nbsp;&nbsp;+91-1234-5678-9</a>
+							</div>
+
+							<!-- Hamburger -->
+
+							<div class="hamburger ml-auto">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header_social d-flex flex-row align-items-center justify-content-start">
+			<ul class="d-flex flex-row align-items-start justify-content-start">
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+				<li><a href="login_form.html" class="login">Login / Register</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu">
+		<div class="menu_header d-flex flex-row align-items-center justify-content-start">
+			<div class="menu_logo"><a href="index.html">Travello</a></div>
+			<div class="menu_close_container ml-auto"><div class="menu_close"><div></div><div></div></div></div>
+		</div>
+		<div class="menu_content">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="list">Vehicle Listing</a></li>
+				<li><a href="news.html">FAQS</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="menu_social">
+			<div class="menu_phone ml-auto">Call Us:&nbsp;&nbsp;+91-1234-5678-9</div>
+			<ul class="d-flex flex-row align-items-start justify-content-start">
+				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook-messenger" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		
+		<div class="background_image" style="background-image:url(images/home_slider1.jpg);">
+			<div class="bl">
+				
+		     </div>
+		</div>
+		<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content">
+										<div class="home_title"><h2>CONTACT US</h2>
+										<p>
+					Home > Contact Us </p>
+			                           </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	</div>
+
+	<!-- Search -->
+
+	<div class="home_search">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+						<div class="home_search_container">
+						<div class="home_search_title">Search for any vehicle now</div>
+						<div class="home_search_content">
+							<form action="#" class="home_search_form" id="home_search_form">
+								<div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
+									<input type="text" class="search_input search_input_1" placeholder="City" required="required">
+									<input type="text" class="search_input search_input_2" placeholder="Departure" required="required">
+									<input type="text" class="search_input search_input_3" placeholder="Arrival" required="required">
+									<input type="number" class="search_input search_input_4" placeholder="Budget" required="required">
+									<button class="home_search_button">search</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact">
+		<div class="container">
+			<div class="row">
+
+				<!-- Get in touch -->
+				<div class="col-lg-6">
+					<div class="contact_content">
+						<div class="contact_title">Get in touch using the form aside</div>
+						<div class="contact_text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+						</div>
+						<div class="contact_list">
+							<ul>
+								<li>
+									<div>address:</div>
+									<div>2087 Barnes Street, New Delhi, India 201009</div>
+								</li>
+								<li>
+									<div>phone:</div>
+									<div>Office Landline: +120 1234 56 789 567
+									<div>Mobile: +91 1234 5678 90</div>
+									</div>
+								</li>
+								<li>
+									<div>email:</div>
+									<div>testemail@gmail.com
+										<div>Office@carrentals.com</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Contact Form -->
+				<div class="col-lg-6">
+					<div class="contact_form_container">
+						<form action="contact.html" id="contact_form" class="contact_form" onsubmit="alert('Message Send Successfully');">
+							<div style="margin-bottom: 18px"><input type="text" class="contact_input contact_input_name inpt" placeholder="Full Name" required="required"><div class="input_border"></div></div>
+							<div class="row">
+								<div class="col-lg-6" style="margin-bottom: 18px">
+									<div><input type="email" class="contact_input contact_input_email inpt" placeholder="E-mail Address" required="required"><div class="input_border"></div></div>
+								</div>
+								<div class="col-lg-6" style="margin-bottom: 18px">
+									<div><input type="tel" class="contact_input contact_input_subject inpt" placeholder="Phone Number" required="required"><div class="input_border"></div></div>
+								</div>
+							</div>
+							<div><textarea class="contact_textarea contact_input inpt" placeholder="Message" required="required"></textarea><div class="input_border" style="bottom:3px"></div></div>
+							<button class="contact_button">send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_bl">
+		    
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer_3.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="newsletter">
+						<div class="newsletter_title_container text-center">
+							<div class="newsletter_title">Subscribe to Our Newsletter to Get the Latest Deals</div>
+							<div class="newsletter_subtitle">We send great deals and latest news every week!</div>
+						</div>
+						<div class="newsletter_form_container">
+							<form action="contact.html" class="newsletter_form d-flex flex-md-row flex-column align-items-start justify-content-between" id="newsletter_form" onsubmit="alert('Subscribed Successfully!!!')">
+								<div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
+									<div><input type="text" class="newsletter_input newsletter_input_name" id="newsletter_input_name" placeholder="Name" required="required"><div class="input_border"></div></div>
+									<div><input type="email" class="newsletter_input newsletter_input_email" id="newsletter_input_email" placeholder="Your e-mail" required="required"><div class="input_border"></div></div>
+								</div>
+								<div><button class="newsletter_button">subscribe</button></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_contact_row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="row">
+
+						<!-- Footer Contact Item -->
+						<div class="col-xl-4 footer_contact_col">
+							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
+								<div class="footer_contact_icon"><img src="images/sign.svg" alt=""></div>
+								<div class="footer_contact_title">give us a call</div>
+								<div class="footer_contact_list">
+									<ul>
+										<li>Office Landline: +120 1234 56 789 567</li>
+										<li>Mobile: +91 1234 5678 90</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<!-- Footer Contact Item -->
+						<div class="col-xl-4 footer_contact_col">
+							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
+								<div class="footer_contact_icon"><img src="images/trekking.svg" alt=""></div>
+								<div class="footer_contact_title">keep in touch</div>
+								<div class="footer_contact_list">
+									<ul style="max-width:190px">
+										<li>2087 Barnes Street, New Delhi, India 201009</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Footer Contact Item -->
+						<div class="col-xl-4 footer_contact_col">
+							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
+								<div class="footer_contact_icon"><img src="images/around.svg" alt=""></div>
+								<div class="footer_contact_title">Write to us</div>
+								<div class="footer_contact_list">
+									<ul>
+										<li>testemail@gmail.com</li>
+										<li>Office@carrentals.com</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col text-center">
+Copyright &copy;Vehicle Rental Portal | All rights reserved</div>
+ </div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

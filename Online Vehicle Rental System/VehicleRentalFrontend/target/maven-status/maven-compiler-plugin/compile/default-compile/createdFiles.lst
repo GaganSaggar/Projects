@@ -1,0 +1,7 @@
+com\niec\vehicle\controller\SpringSecurityController.class
+com\niec\vehicle\controller\UserController.class
+com\niec\vehicle\config\CustomSuccessHandler.class
+com\niec\vehicle\controller\VehicleController.class
+com\niec\vehicle\config\SecurityWebApplicationInitializer.class
+com\niec\vehicle\controller\HomeController.class
+com\niec\vehicle\config\SecurityConfiguration.class

@@ -1,0 +1,269 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>ADMIN | Manage Pages</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/rent.png">
+<link rel="stylesheet" href="styles/admin_manage_pages.css">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link rel="stylesheet" href="styles/css/all.css">
+
+<style>
+	.dash ul li, .dropdown-btn{
+	height: 8.1vh;
+	width: 100%;
+	text-align: center;
+}
+	.dash ul a.active {
+  background-color: green;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<!-----------------------LIST------------------------------------------->
+	<div class="list">
+		<div class="head">
+			<img src="images/rent.png" alt="music-player">
+			
+			<h2>admin panel</h2>
+
+		</div>
+		<div class="clr">
+			
+		</div>
+
+		<div class="dash">
+			
+			<ul>
+				<a href="admin_dashboard.html">
+				<li>
+					<h2><i class="fas fa-chart-line"></i> Dashboard</h2>
+				</li>
+				</a>
+
+				<a href="#" class="dropdown-btn">
+				<li>
+				   <h2><i class="fa fa-car"></i> Brands<i class="fa fa-caret-down"></i></h2>
+				</li>
+				</a>
+
+				<div class="dropdown-container">
+					    <a href="admin_create_brand.html">
+					    	<li><h2><i class="fa fa-cube"></i> Create Brand</h2></li>
+					    </a>
+					     <a href="admin_manage_brand.html">
+					    	<li><h2><i class="fa fa-magic"></i> Manage Brand</h2></li>
+					    </a>
+                </div>
+
+				<a href="#" class="dropdown-btn">
+				<li>
+					<h2><i class="fa fa-bicycle"></i> Vehicles<i class="fa fa-caret-down" style="padding-left: 97px;"></i></h2>
+				</li>
+				</a>
+
+				<div class="dropdown-container">
+					    <a href="admin_post_a_vehicle.html">
+					    	<li><h2><i class="fa fa-truck"></i> Post a Vehicle</h2></li>
+					    </a>
+					     <a href="admin_manage_vehicles.html">
+					    	<li><h2><i class="fa fa-magic"></i> Manage Vehicles</h2></li>
+					    </a>
+                </div>
+
+				<a href="admin_manage_bookings.html">
+				<li>
+					<h2><i class="fas fa-group"></i> Manage Booking</h2>
+
+				</li>
+				</a>
+
+				<a href="admin_manage_testimonials.html">
+				<li>
+				<h2><i class="far fa-comment"></i> Manage Testimonials</h2>
+
+				</li>
+				</a>
+				
+				<a href="admin_manage_contacts_query.html">
+				<li>
+				<h2><i class="fas fa-question"></i> Manage Contacts Query</h2>
+				</li>
+				</a>
+
+				<a href="admin_reg_users.html">
+				<li>
+					<h2><i class="fas fa-group"></i> Reg. Users</h2>
+				</li>
+				</a>
+
+				<a href="admin_manage_pages.html">
+				<li class="select">
+					<h2><i class="fa fa-file"></i> Manage Pages</h2>
+				</li>
+				</a>
+				<a href="admin_update_contact_info.html">
+				<li>
+					<h2><i class="fas fa-info"></i> Update Contact Info</h2>
+				</li>
+				</a>
+				<a href="admin_manage_subscribers.html">
+				<li>
+					<h2><i class="fas fa-group"></i> Manage Subscribers</h2>
+				</li>
+				</a>
+				
+			</ul>
+
+			
+		</div>
+		
+	</div>
+<!-----------------------LIST------------------------------------------->
+
+
+<!-----------------------Header------------------------------------------->
+	<div class="header">
+		
+		<a href="#">
+		<div class="profile">
+			<h2>Steave</h2>
+
+			<img src="images/varun.jpg" alt="man">
+			
+		</div>
+		</a>
+		
+		<input type="search" name="Search" placeholder="Search...">
+
+	</div>
+	
+	<!-----------------------Header------------------------------------------->
+
+		<div class="clRR">
+		
+	</div>
+	
+	<!-----------------------Display------------------------------------------->
+
+	<div class="display">
+
+		<h1>Manage Pages</h1>
+
+		<ul>
+			
+				<li>
+					<a href="admin_dashboard.html">
+					Dashboard
+					</a>
+				</li>
+				
+
+				
+				<li>
+					<a href="admin_change_password.html" style="background: #ce3966;font-family: 'Century Gothic';
+	font-size: 16px;
+	font-weight: bold;
+	color: #f7f9f8;
+	text-align: center;
+	padding: 3px;
+	border: 2px solid #ce3966;
+	border-radius: 16px;">
+					Change Password
+					</a>
+				</li>
+
+		</ul>
+
+
+		
+	</div>
+
+	<!-----------------------Display------------------------------------------->
+
+	<div class="clRR">
+		
+	</div>
+
+<!---------------------------------LISTING BOXES---------------------------------------------->
+	<ul class="a">
+
+		
+						<div class="contact_title" style="text-decoration: underline;text-transform: uppercase; font-size: 20px; margin-top: 20px; margin-bottom: 20px;">Manage Pages</div>
+					<div class="contact_form_container">
+						<form action="admin_manage_pages.html" id="contact_form" class="contact_form" onsubmit="alert('Page Data Updated Successfully!!!!')">
+							
+							<div style="margin-bottom: 18px; margin-top: 0px; width: 45%; float: left;"><label for="page" style="color: black; font-weight: bold;">Select Page :</label> <br>
+							<select name="Select Page" class="contact_input contact_input_name inpt" placeholder="Select Page" required="required" id="page">
+								<option value="Select">Select</option>
+								<option value="Terms And Condition">Terms And Condition</option>
+								<option value="Privacy Policy">Privacy Policy</option>
+								<option value="FAQS">FAQS</option>
+								<option value="About Us">About Us</option>
+							</select>
+							<div class="input_border"></div>
+						</div>
+
+                            <div class="clr">
+                           	
+                           </div>
+
+                           <div style="margin-bottom: 18px; margin-top: 0px; width: 45%; float: left;"><label for="selected" style="color: black; font-weight: bold;">Selected Page :</label> <br>
+							<input type="text" class="contact_input contact_input_name inpt" placeholder="Selected Page" id="selected"><div class="input_border" style="bottom:3px"></div>
+                           </div>
+
+                           <div class="clr">
+                           	
+                           </div>
+
+                           <div style="margin-bottom: 18px; margin-top: 0px; width: 90%; float: left;"><label for="contact" style="color: black; font-weight: bold;">Page Details:</label> <br>
+                           	<textarea class="contact_textarea contact_input inpt" placeholder="Page Details" id="contact" required="required"></textarea>
+							<div class="input_border" style="bottom:3px"></div>
+                           </div>
+                           <div class="clr">
+                           	
+                           </div>
+						    <div>
+
+						    </div>
+							<button class="contact_button">Update</button>
+						</form>
+					</div>
+				</div>
+
+	</ul>
+
+<!---------------------------------LISTING BOXES---------------------------------------------->
+
+<div class="clr">
+	
+</div>
+
+</body>
+<script>
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.add("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+
+document.querySelector('#page').addEventListener('change', function(){
+	var checkpage = document.querySelector('#page').value;
+	document.querySelector('#selected').value = checkpage;
+});
+</script>
+</html>

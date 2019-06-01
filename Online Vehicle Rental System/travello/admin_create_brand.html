@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADMIN | Create Brand</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/rent.png">
+<link rel="stylesheet" href="styles/admin_create_brand.css">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link rel="stylesheet" href="styles/css/all.css">
+
+<style>
+	.dash ul li, .dropdown-btn{
+	height: 8.1vh;
+	width: 100%;
+	text-align: center;
+}
+	.dash ul a.active {
+  background-color: green;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<!-----------------------LIST------------------------------------------->
+	<div class="list">
+		<div class="head">
+			<img src="images/rent.png" alt="music-player">
+			
+			<h2>admin panel</h2>
+
+		</div>
+		<div class="clr">
+			
+		</div>
+
+		<div class="dash">
+			
+			<ul>
+				<a href="admin_dashboard.html">
+				<li>
+					<h2><i class="fas fa-chart-line"></i> Dashboard</h2>
+				</li>
+				</a>
+
+				<a href="#" class="dropdown-btn">
+				<li>
+				   <h2><i class="fa fa-car"></i> Brands<i class="fa fa-caret-down"></i></h2>
+				</li>
+				</a>
+
+				<div class="dropdown-container" style="display: block;">
+					    <a href="admin_create_brand.html">
+					    	<li class="select"><h2><i class="fa fa-cube"></i> Create Brand</h2></li>
+					    </a>
+					     <a href="admin_manage_brand.html">
+					    	<li><h2><i class="fa fa-magic"></i> Manage Brand</h2></li>
+					    </a>
+                </div>
+
+				<a href="#" class="dropdown-btn">
+				<li>
+					<h2><i class="fa fa-bicycle"></i> Vehicles<i class="fa fa-caret-down" style="padding-left: 97px;"></i></h2>
+				</li>
+				</a>
+
+				<div class="dropdown-container">
+					    <a href="admin_post_a_vehicle.html">
+					    	<li><h2><i class="fa fa-truck"></i> Post a Vehicle</h2></li>
+					    </a>
+					     <a href="admin_manage_vehicles.html">
+					    	<li><h2><i class="fa fa-magic"></i> Manage Vehicles</h2></li>
+					    </a>
+                </div>
+
+				<a href="admin_manage_bookings.html">
+				<li>
+					<h2><i class="fas fa-group"></i> Manage Booking</h2>
+
+				</li>
+				</a>
+
+				<a href="admin_manage_testimonials.html">
+				<li>
+				<h2><i class="far fa-comment"></i> Manage Testimonials</h2>
+
+				</li>
+				</a>
+				
+				<a href="admin_manage_contacts_query.html">
+				<li>
+				<h2><i class="fas fa-question"></i> Manage Contacts Query</h2>
+				</li>
+				</a>
+
+				<a href="admin_reg_users.html">
+				<li>
+					<h2><i class="fas fa-group"></i> Reg. Users</h2>
+				</li>
+				</a>
+
+				<a href="admin_manage_pages.html">
+				<li>
+					<h2><i class="fa fa-file"></i> Manage Pages</h2>
+				</li>
+				</a>
+				<a href="admin_update_contact_info.html">
+				<li>
+					<h2><i class="fas fa-info"></i> Update Contact Info</h2>
+				</li>
+				</a>
+				<a href="admin_manage_subscribers.html">
+				<li>
+					<h2><i class="fas fa-group"></i> Manage Subscribers</h2>
+				</li>
+				</a>
+				
+			</ul>
+
+			
+		</div>
+		
+	</div>
+<!-----------------------LIST------------------------------------------->
+
+
+<!-----------------------Header------------------------------------------->
+	<div class="header">
+		
+		<a href="#">
+		<div class="profile">
+			<h2>Steave</h2>
+
+			<img src="images/varun.jpg" alt="man">
+			
+		</div>
+		</a>
+		
+		<input type="search" name="Search" placeholder="Search...">
+
+	</div>
+	
+	<!-----------------------Header------------------------------------------->
+
+		<div class="clRR">
+		
+	</div>
+	
+	<!-----------------------Display------------------------------------------->
+
+	<div class="display">
+
+		<h1>Create Brand</h1>
+
+		<ul>
+			
+				<li>
+					<a href="admin_dashboard.html">
+					Dashboard
+					</a>
+				</li>
+				
+
+				
+				<li>
+					<a href="admin_change_password.html" style="background: #ce3966;font-family: 'Century Gothic';
+	font-size: 16px;
+	font-weight: bold;
+	color: #f7f9f8;
+	text-align: center;
+	padding: 3px;
+	border: 2px solid #ce3966;
+	border-radius: 16px;">
+					Change Password
+					</a>
+				</li>
+
+		</ul>
+
+
+		
+	</div>
+
+	<!-----------------------Display------------------------------------------->
+
+	<div class="clRR">
+		
+	</div>
+
+<!---------------------------------LISTING BOXES---------------------------------------------->
+	<ul class="a">
+
+		<div class="col-lg-6">
+	
+						<div class="contact_title" style="text-decoration: underline;text-transform: uppercase; font-size: 20px; margin-top: 20px;">Create Brand</div>
+					<div class="contact_form_container">
+						<form action="admin_create_brand.html" id="contact_form" class="contact_form" onsubmit="alert('Brand Created Successfully!!!!')">
+							<div class="row">
+							<div class="col-lg-12" style="margin-bottom: 18px; margin-top: 20px;"><label for="brand_name" style="color: black; font-weight: bold;">Brand Name:</label> <br>
+							<input type="text" class="contact_input contact_input_name inpt" placeholder="Brand Name" required="required" id="brand_name">
+							<div class="input_border"></div></div>
+						</div>
+							<button class="contact_button">Submit</button>
+						</form>
+					</div>
+				</div>
+	</ul>
+
+<!---------------------------------LISTING BOXES---------------------------------------------->
+
+<div class="clr">
+	
+</div>
+
+</body>
+<script>
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.add("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+</html>
