@@ -1,0 +1,16 @@
+com\niit\ecom\DAO\SupplierDAO.class
+com\niit\ecom\model\Supplier.class
+com\niit\ecom\model\Product.class
+com\niit\ecom\model\Category.class
+com\niit\ecom\DAO\CategoryDAO.class
+com\niit\ecom\DAOImpl\CartDAOImpl.class
+com\niit\ecom\DAOImpl\UserDAOImpl.class
+com\niit\ecom\config\HibernateConfiguration.class
+com\niit\ecom\DAO\ProductDAO.class
+com\niit\ecom\model\User.class
+com\niit\ecom\DAO\CartDAO.class
+com\niit\ecom\DAOImpl\CategoryDAOImpl.class
+com\niit\ecom\DAOImpl\SupplierDAOImpl.class
+com\niit\ecom\model\Cart.class
+com\niit\ecom\DAOImpl\ProductDAOImpl.class
+com\niit\ecom\DAO\UserDAO.class
